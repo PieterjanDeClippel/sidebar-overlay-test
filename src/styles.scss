@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+// Import our own utilities
+@import "~bootstrap/scss/bootstrap-utilities.scss";
+@import './src/styles/utilities/cursor.scss';
+@import './src/styles/utilities/white-space.scss';
+@import './src/styles/utilities/overflow.scss';
+
+// Finally import the bootstrap
+@import "~bootstrap/scss/bootstrap.scss";
